@@ -7,17 +7,45 @@
 	<title>Nina Carducci - Photographe professionnelle </title>
 	<meta
 	name="description"
-	content="Site web de Nina Carducci, photographe capturant des moments uniques avec passion et créativité."
+	content="Nina Carducci, photographe professionnelle basée à Bordeaux, vous propose l'opportunité de saisir vos merveilleux moments."
   />
-
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css ">
 	<link rel="stylesheet" href="./assets/style.min.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
  <!-- Meta donnés pour le référencement facebook -->
-
-	
+    <meta property="og:title" content="Nina Carducci - Photographe professionnelle">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:url" content=" https://zianihiba.github.io/ninacarducci.github.io/">
+    <meta property="og:image" content=" https://zianihiba.github.io/ninacarducci.github.io/assets/images/nina.webp">
+    <meta property="og:description" content="Nina Carducci, photographe professionnelle basée à Bordeaux, vous propose l'opportunité de saisir vos merveilleux moments .">
+ <!--   Twitter Card data  -->
+    <meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Nina Carducci - Photographe professionnelle">
+	<meta name="twitter:description" content="Nina Carducci, photographe professionnelle basée à Bordeaux, vous propose l'opportunité de saisir vos merveilleux moments">
+	<meta name="twitter:image" content=" https://zianihiba.github.io/ninacarducci.github.io/assets/images/nina.webp">
+	<!-- shema.org	 -->
+	<script type="application/ld+json">
+		{
+		  "@context": "http://schema.org",
+		  "@type": "Service",
+		  "name": "Nina Carducci",
+		  "image": "./assets/images/nina.webp",
+		  "url": " https://zianihiba.github.io/ninacarducci.github.io/",
+		  "priceRange": "€€",
+		  "address": {
+			"@type": "PostalAddress",
+			"streetAddress": "68 avenue Alsace-Lorraine",
+			"addressLocality": "Bordeaux",
+			"postalCode": "33200",
+			"addressCountry": "FR"
+		  },
+		  "telephone": " 05 56 67 78 89",
+		  "openingHours": "Mo-Fr 10:00-19:00",
+		}
+		</script>
 </head>
 <body>
 <header class="top-header">
@@ -44,7 +72,7 @@
 		<div class="carousel-inner">
 			<picture class="carousel-item active">
 				<source srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplashMobile_14_11zon.webp" media="(max-width: 768px)"/>
-				<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp"  class="d-block w-100 h-100" alt="un pasager traversant la route">
+				<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp"  class="d-block w-100 " alt="un pasager traversant la route">
 			</picture>
 			<picture class="carousel-item">
 				<source srcset="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplashMobile_11_11zon.webp" media="(max-width: 768px)"/>
@@ -66,9 +94,10 @@
 	</div>
 </div>
 <section id="about">
-	<div class="picture left">
-		<img src="./assets/images/nina.webp" alt="La photographe Nina-Carducci">
-	</div>
+	<picture class="picture left">
+		<source srcset="./assets/images/slider/ninaMobile_12_11zon.webp" media="(max-width: 768px)"/>
+		<img src="./assets/images/nina.webp" loading="lazy" alt="La photographe Nina-Carducci">
+	</picture>
 	<div id="about-me">
 		<h2 class="about-me__title">A propos de moi</h2>
 		<p> class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</p>
@@ -80,8 +109,8 @@
 	<h2 class="title">Portfolio</h2>
 	<div class="container py-3">
 		<div class="gallery" style="display: none">
-			<img data-gallery-tag="Concert"   loading="lazy" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp" alt="photo d'un concert"/>
-			<img data-gallery-tag="Entreprises"   loading="lazy" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp"alt="portrait d'un homme elegant"/>
+			<img data-gallery-tag="Concert"   loading="lazy" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplashMobile_1_11zon.webp" alt="photo d'un concert"/>
+			<img data-gallery-tag="Entreprises"   loading="lazy" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplashMobile _11zon.webp"alt="portrait d'un homme elegant"/>
 			<img data-gallery-tag="Entreprises"   loading="lazy" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp"alt="portrait d'une femme souriante"/>
 			<img data-gallery-tag="Mariages"  loading="lazy" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp" alt="photo des mains pris par hannah bushing"/>
 			<img data-gallery-tag="Portrait"  loading="lazy" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp" alt="photo d'un homme prise par ade tunji"/>
@@ -161,7 +190,7 @@
 			</form>
 		</div>
 		<div class="picture right">
-			<img src="./assets/images/camera.webp" alt="camera">
+			<img src="./assets/images/camera.webp"  loading="lazy" alt="camera">
 		</div>
 	</div>
 </footer>
